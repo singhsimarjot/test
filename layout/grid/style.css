@@ -1,0 +1,28 @@
+.wrapper{ 
+    max-width: 600px;
+    margin:  0 auto;
+}
+.item1 { grid-area: header1; }
+.item2 { grid-area: header2; }
+.item3 { grid-area: main1; }
+.item4 { grid-area: main2; }
+.item5 { grid-area: footer; }
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    'header1 header1 header1 header2 header2 header2'
+    'main1 main1 main2 main2 main2 main2'
+    'footer footer footer footer footer footer';
+  }
+  
+  
+  .grid-container > div {
+    background-color: #444444;
+    color: white;
+    
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 5px;
+  }

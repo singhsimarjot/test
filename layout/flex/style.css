@@ -1,0 +1,19 @@
+.wrapper{ 
+    max-width: 600px;
+    margin:  0 auto;
+}
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container > div {
+    background-color: #444444;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
